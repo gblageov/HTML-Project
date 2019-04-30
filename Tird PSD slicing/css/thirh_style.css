@@ -10,7 +10,7 @@
     Base
 \* ------------------------------------------------------------ */
 
-body { background: #fff; font-family: 'Arial', sans-serif; font-size: 16px; line-height: 1.3; color: #000; }
+body { background: #fff; font-family:'Adobe Caslon Pro', sans-serif , sans-serif; font-size: 16px; line-height: 1.3; color: #000; }
 
 a { color: inherit; text-decoration: underline; }
 a:hover { text-decoration: none; }
@@ -38,7 +38,7 @@ ol { padding-left: 1.2em; }
 
 img { max-width: 100%; height: auto; vertical-align: middle; } 
 
-body { font-family:'Adobe Caslon Pro', sans-serif }
+@font-face { font-family: Adobe Caslon Pro Reguler; src: url(/Tird-PSD-slicing/) }
 
 .shall { max-width: 980px; margin: 0 auto; }
 
