@@ -1,0 +1,47 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+*,
+*:before,
+*:after { padding: 0; margin: 0; outline: 0; box-sizing: border-box; }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { background: #fff; font-family: 'Arial', sans-serif; font-size: 16px; line-height: 1.3; color: #000; }
+
+a { color: inherit; text-decoration: underline; }
+a:hover { text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { margin-bottom: 20px; }
+
+h1 { font-size: 30px; }
+h2 { font-size: 24px; }
+h3 { font-size: 22px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+
+p,
+ul,
+ol { margin-bottom: 1.3em; }
+
+ul,
+ol { padding-left: 1.2em; }
+
+img { max-width: 100%; height: auto; vertical-align: middle; } 
+
+body { font-family:'Adobe Caslon Pro', sans-serif }
+
+.shall { max-width: 980px; margin: 0 auto; }
+
+.subhead::first-letter { font-size: 120px;; }
+
+.up-head::first-letter { font-size: 50xp; }
