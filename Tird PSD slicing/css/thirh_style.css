@@ -15,23 +15,9 @@ body { background: #fff; font-family: 'Arial', sans-serif; font-size: 16px; line
 a { color: inherit; text-decoration: underline; }
 a:hover { text-decoration: none; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 { margin-bottom: 20px; }
-
-h1 { font-size: 30px; }
-h2 { font-size: 24px; }
-h3 { font-size: 22px; }
-h4 { font-size: 18px; }
-h5 { font-size: 16px; }
-h6 { font-size: 14px; }
-
 p,
 ul,
-ol { margin-bottom: 1.3em; }
+ol { margin-top: 15px; margin-bottom: 18px; line-height: 1.55em; }
 
 ul,
 ol { padding-left: 1.2em; }
@@ -42,6 +28,13 @@ body { font-family:'Adobe Caslon Pro', sans-serif }
 
 .shall { max-width: 980px; margin: 0 auto; }
 
-.subhead::first-letter { font-size: 120px;; }
+header { margin-bottom: 31px; }
 
-.up-head::first-letter { font-size: 50xp; }
+.subhead::first-letter { float: left; font-size: 120px; line-height: 0.4em; padding: 0 9px 17px 33px; text-transform: uppercase; }
+
+.section_content { max-width: 630px; float: left; margin-right: 70px; padding-top: 30px; }
+.section_content .img-left { max-width: auto; float: left; margin: 0 27px 17px 0; }
+.section_content .img-right { max-width: auto; float: right; margin: 0 0px 17px 27px; }
+
+
+
