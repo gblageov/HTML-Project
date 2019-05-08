@@ -48,5 +48,6 @@ blockquote:before, blockquote:after { position: absolute; }
 .section_content-list a { color: #f80e27; text-decoration: none; }
 .section_content-list a:hover { color: #e28a8a; }
 
+
 footer img { margin-top: 80px; }
 
