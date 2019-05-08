@@ -10,7 +10,7 @@
     Base
 \* ------------------------------------------------------------ */
 
-body { background: #fff; font-family: 'Arial', sans-serif; font-size: 16px; line-height: 1.3; color: #000; }
+body { margin: 0 auto; background: #fff; font-family: 'Arial', sans-serif; font-size: 16px; line-height: 1.3; color: #000; }
 
 a { color: inherit; text-decoration: underline; }
 a:hover { text-decoration: none; }
@@ -35,6 +35,18 @@ header { margin-bottom: 31px; }
 .section_content { max-width: 630px; float: left; margin-right: 70px; padding-top: 30px; }
 .section_content .img-left { max-width: auto; float: left; margin: 0 27px 17px 0; }
 .section_content .img-right { max-width: auto; float: right; margin: 0 0px 17px 27px; }
+.section_content ol, ul { margin-left: 20px; padding-left: 35px; }
 
+blockquote { position: relative;; max-width: 430px; margin: 40px auto; }
+blockquote:before {  content: '“'; font-size: 120px; color: #a1a1a1; top: -2rem; left: -4rem; width: 4rem; height:  4rem; padding: 10px; line-height: 1.09; }
+blockquote:after { content: '”';  font-size: 120px; color: #a1a1a1; top: 2rem; right: -4rem; width: 4rem; height: 4rem; padding: 10px; } 
+blockquote:before, blockquote:after { position: absolute; }
 
+.section_content-list h3, h4  { font-family: 'Gill Sans', serif; font-weight: normal; }
+.section_content-list h3 { font-size: 24px }
+.section_content-list h4 { font-size: 21px }
+.section_content-list a { color: #f80e27; text-decoration: none; }
+.section_content-list a:hover { color: #e28a8a; }
+
+footer img { margin-top: 80px; }
 
