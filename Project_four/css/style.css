@@ -30,9 +30,11 @@ img { max-width: 100%; height: auto; vertical-align: middle; }
 
 
 
-.shall { max-width: 950px; margin: 0 auto; display: flex; }
+.shall { max-width: 950px; margin: 0 auto; }
 
-.section-intro, .section-content { display: flex; flex-direction: column;  max-width: 638px; padding-right: 92px;  }
+.flex { display: flex; }
 
-.section-saidbar { }
+.section-intro, .section-content { flex-direction: column;  max-width: 638px; padding-right: 92px;  }
+
+.section-saidbar { justify-content: flex-end;}
 
