@@ -10,7 +10,7 @@
     Base
 \* ------------------------------------------------------------ */
 
-body { margin: 0 auto; background: #fff; font-family: 'Bitter', sans-serif; font-size: 16px; line-height: 1.3; color: #000; }
+body { margin: 0 auto; background: #fff; font-family: 'Bitter', sans-serif; font-size: 16px; line-height: 1.3; color: #595959; }
 
 a { color: inherit; text-decoration: underline; }
 a:hover { text-decoration: none; }
@@ -18,6 +18,15 @@ a:hover { text-decoration: none; }
 p,
 ul,
 ol { margin-top: 15px; margin-bottom: 18px; line-height: 1.55em; }
+
+h1 { font-size: 26px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-weight: 400; margin-bottom: 20px; line-height: 1; }
 
 ul,
 ol { padding-left: 1.2em; }
@@ -30,17 +39,40 @@ img { max-width: 100%; height: auto; vertical-align: middle; }
 
 .shall { max-width: 980px; margin: 0 auto; }
 
-section { display: flex; justify-content: space-around; }
-
-.breadcrumbs ul, li{ display: inline-block; list-style: none; padding: 0; margin: 0; }
-/* Как да направя така че да няма !important; */
-.breadcrumbs ul, li:first-child:before { content: none; padding: 0 !important;  } 
-.breadcrumbs ul, li:before { content: ">"; padding: 0 5px; }
-.breadcrumbs ul, li a:link { color: green; }
-.breadcrumbs ul, li a: { color: green; }
-.breadcrumbs ul, li a:hover { color: green; }
-
-
+section { display: flex; justify-content: space-around; margin-top: 30px; }
 
 .container { max-width: 550px; }
 .container img { float: right; }
+
+/* ------------------------------------------------------------ *\
+    .breadcrumbs
+\* ------------------------------------------------------------ */
+
+.breadcrumbs { margin:22px 0 14px 0; line-height: 1; }
+.breadcrumbs ul, li:before { content: ">"; padding: 0 5px; }
+.breadcrumbs ul, li { display: inline-block; list-style: none; padding: 0; margin: 0; color: #595959; font-size: 11px; }
+/* Как да направя така че да няма !important; */
+.breadcrumbs ul, li:first-child:before { content: none; padding: 0 !important;  } 
+.breadcrumbs ul, li:first-child { color: #53887a; }
+.breadcrumbs ul, li a { text-decoration: none; }
+.breadcrumbs ul, li a:hover{ color: #53887a; }
+
+/* ------------------------------------------------------------ *\
+    .section-content
+\* ------------------------------------------------------------ */
+
+.section-content .title { margin-bottom: 25px; }
+.section-content .underline-image { margin-bottom: 20px; }
+.section-content .breadcrumbs { display: flex; align-items: flex-start; justify-content: space-around; margin: 40px 0; }
+.section-content .breadcrumbs span { font-family: 'Georgia'; font-size: 91px;  line-height: 1; align-self: flex-start; padding: 0 30px; }
+.section-content .breadcrumbs p { margin: 0; font-size: 15px; }
+.section-content .breadcrumbs .name { font-family: 'Helvetica', sans-serif; font-size: 14px; font-weight: 600; padding: 0;  margin-bottom: 30px; }
+
+
+
+
+/* Как да направя така че  :before пред bredcrumbs да избутва цялото съдържание Имам идея да го направя в span да  направя roditelq flex и да ги показвам на колони. */
+/* .section-content blockquote:before { position: relative; top: 20px; font-family: 'Georgia';font-size: 91px; font-style: italic; float: left; line-height: 1; margin-right: 40px;  content: '“';  }
+.section-content blockquote { font-size: 15px; max-width: 500px; margin: 0 auto; clear: both; margin: 50px 0; }
+.section-content blockquote, span {  } */
+
