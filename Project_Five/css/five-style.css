@@ -10,7 +10,7 @@
     Base
 \* ------------------------------------------------------------ */
 
-body { margin: 0 auto; background: #fff; font-family: 'Bitter', sans-serif; font-size: 16px; line-height: 1.3; color: #595959; }
+body { margin: 0 auto; background: #fff; font-family: 'Bitter', sans-serif; font-size: 15px; line-height: 1.3; color: #595959; }
 
 a { color: inherit; text-decoration: underline; }
 a:hover { text-decoration: none; }
@@ -42,7 +42,7 @@ img { max-width: 100%; height: auto; vertical-align: middle; }
 section { display: flex; justify-content: space-around; margin-top: 30px; }
 
 .container { max-width: 550px; }
-.container img { float: right; }
+.container img { float: right; margin-left: 20px; }
 
 /* ------------------------------------------------------------ *\
     .breadcrumbs
@@ -67,7 +67,9 @@ section { display: flex; justify-content: space-around; margin-top: 30px; }
 .section-content .breadcrumbs span { font-family: 'Georgia'; font-size: 91px;  line-height: 1; align-self: flex-start; padding: 0 30px; }
 .section-content .breadcrumbs p { margin: 0; font-size: 15px; }
 .section-content .breadcrumbs .name { font-family: 'Helvetica', sans-serif; font-size: 14px; font-weight: 600; padding: 0;  margin-bottom: 30px; }
-
+.section-content h3 { font-size: 19px; }
+.section-content .section-column { display: flex; justify-content: space-between;  }
+.section-content .section-column p { width: 30%;}
 
 
 
