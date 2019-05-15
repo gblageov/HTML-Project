@@ -1,0 +1,46 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+*,
+*:before,
+*:after { padding: 0; margin: 0; outline: 0; box-sizing: border-box; }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { margin: 0 auto; background: #fff; font-family: 'Bitter', sans-serif; font-size: 16px; line-height: 1.3; color: #000; }
+
+a { color: inherit; text-decoration: underline; }
+a:hover { text-decoration: none; }
+
+p,
+ul,
+ol { margin-top: 15px; margin-bottom: 18px; line-height: 1.55em; }
+
+ul,
+ol { padding-left: 1.2em; }
+
+img { max-width: 100%; height: auto; vertical-align: middle; } 
+
+/* ------------------------------------------------------------ *\
+    Custum Style
+\* ------------------------------------------------------------ */
+
+.shall { max-width: 980px; margin: 0 auto; }
+
+section { display: flex; justify-content: space-around; }
+
+.breadcrumbs ul, li{ display: inline-block; list-style: none; padding: 0; margin: 0; }
+/* Как да направя така че да няма !important; */
+.breadcrumbs ul, li:first-child:before { content: none; padding: 0 !important;  } 
+.breadcrumbs ul, li:before { content: ">"; padding: 0 5px; }
+.breadcrumbs ul, li a:link { color: green; }
+.breadcrumbs ul, li a: { color: green; }
+.breadcrumbs ul, li a:hover { color: green; }
+
+
+
+.container { max-width: 550px; }
+.container img { float: right; }
