@@ -73,6 +73,7 @@ section { display: flex; justify-content: space-around; margin-top: 30px; }
 
 
 
+
 /* Как да направя така че  :before пред bredcrumbs да избутва цялото съдържание Имам идея да го направя в span да  направя roditelq flex и да ги показвам на колони. */
 /* .section-content blockquote:before { position: relative; top: 20px; font-family: 'Georgia';font-size: 91px; font-style: italic; float: left; line-height: 1; margin-right: 40px;  content: '“';  }
 .section-content blockquote { font-size: 15px; max-width: 500px; margin: 0 auto; clear: both; margin: 50px 0; }
