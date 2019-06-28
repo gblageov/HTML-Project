@@ -42,33 +42,33 @@ p { line-height: 24px; }
 
 .shall { width: 990px; margin: 107px 150px 0; }
 
-.section_main { margin:0 0 35px 0; }
-.section_main h1 { color:#b92929; font-size: 50px; margin: 10px 0; }
+.header { margin:0 0 35px 0; }
+.header h1 { color:#b92929; font-size: 50px; margin: 10px 0; }
 
-.section_content h2 { color: #2b6f17; font-size: 30px; }
-.section_content h2 a { color: #1659b3; }
+.content h2 { color: #2b6f17; font-size: 30px; }
+.content h2 a { color: #1659b3; }
 
-.section_content h2, h3, h4, h5, h6 { margin: 20px 0 8px 0; }
+.content h2, h3, h4, h5, h6 { margin: 20px 0 8px 0; }
 
-.section_content h4, h5, h6 { color: #666666; }
+.content h4, h5, h6 { color: #666666; }
 
-.section_content p { font-size:15px; }
+.content p { font-size:15px; }
 
-.section_content p a { color: #1659b3; }
+.content p a { color: #1659b3; }
 
-.section_content .section_content-main ul ol { padding-left: 20px; }
+.content .content__main ul ol { padding-left: 20px; }
 
-.section_content-list, .dash-list, .tik-list { list-style: none; padding-left: 0;  }
+.content__list, .content__list--dash, .content__list--tik { list-style: none; padding-left: 0;  }
 
-.dash-list ul { font-style: italic; }
-.section_content .dash-list li { text-indent:-5px; }
-.section_content .dash-list li::before { content: "-"; text-indent: -5px; }
+.content__list--dash ul { font-style: italic; }
+.content .content__list--dash li { text-indent:-5px; }
+.content .content__list--dash li::before { content: "-"; text-indent: -5px; }
 
-.section_content .tik-list { margin-left:20px; font-weight: 700; }
-.section_content .tik-list li { text-indent:-5px; }
-.section_content .tik-list li::before { content: ">"; text-indent: -5px; }
+.content .content__list--tik { margin-left:20px; font-weight: 700; }
+.content .content__list--tik li { text-indent:-5px; }
+.content .content__list--tik li::before { content: ">"; text-indent: -5px; }
 
-.section_footer { text-align: center; font-size:15px; }
-.section_footer h6 { margin-bottom: 10px; }
+.footer { text-align: center; font-size:15px; }
+.footer h6 { margin-bottom: 10px; }
 
-.section_footer span p { font-style: italic; margin-top:21px; }
+.footer span p { font-style: italic; margin-top:21px; }
