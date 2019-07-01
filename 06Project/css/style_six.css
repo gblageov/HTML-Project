@@ -55,7 +55,7 @@ img { max-width: 100%; height: auto; vertical-align: middle; }
 
 .shell { width: 980px; margin: 0 auto; }
 
-.conteiner { display: flex; margin-top: 29px; }
+.container { display: flex; margin-top: 29px; }
 
 .sections { width: 678px; padding-left: 59px; }
 
