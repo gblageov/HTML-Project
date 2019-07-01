@@ -41,7 +41,7 @@ body { margin: 0; padding: 0; font-family: Georgia, sans-serif;  box-sizing: bor
 p { line-height: 24px; }
 
 /* 
-	Custam CSS
+	Style
 */
 
 .shall { width: 990px; margin: 107px 150px 0; }
@@ -62,7 +62,10 @@ p { line-height: 24px; }
 .content .content__list--tik li { text-indent:-5px; }
 .content .content__list--tik li::before { content: ">"; text-indent: -5px; }
 
-.content__list, .content__list--dash, .content__list--tik { list-style: none; padding-left: 0;  }
+.content__list,
+.content__list--dash,
+.content__list--tik { list-style: none; padding-left: 0;  }
+
 .content__list--dash ul { font-style: italic; }
 
 .footer { text-align: center; font-size:15px; }

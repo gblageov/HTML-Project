@@ -26,28 +26,29 @@ img { max-width: 100%; height: auto; vertical-align: middle; }
 
 body { font-family:'Adobe Caslon Pro', sans-serif }
 
-.shall { max-width: 980px; margin: 0 auto; }
+/*
+    Style
+*/
+
+.shell { max-width: 980px; margin: 0 auto; }
 
 header { margin-bottom: 31px; }
 
-.subhead::first-letter { float: left; font-size: 120px; line-height: 0.4em; padding: 0 9px 17px 33px; text-transform: uppercase; }
+.section__intro::first-letter { float: left; font-size: 120px; line-height: 0.4em; padding: 0 9px 17px 33px; text-transform: uppercase; }
 
-.section_content { max-width: 630px; float: left; margin-right: 70px; padding-top: 30px; }
-.section_content .img-left { max-width: auto; float: left; margin: 0 27px 17px 0; }
-.section_content .img-right { max-width: auto; float: right; margin: 0 0px 17px 27px; }
-.section_content ol, ul { margin-left: 20px; padding-left: 35px; }
+.sections { max-width: 630px; float: left; margin-right: 70px; padding-top: 30px; }
+.sections ol, ul { margin-left: 20px; padding-left: 35px; }
+.sections .section__img--left { max-width: auto; float: left; margin: 0 27px 17px 0; }
+.sections .section__img--right { max-width: auto; float: right; margin: 0 0px 17px 27px; }
+.sections .section__content--list h3, h4  { font-family: 'Gill Sans', serif; font-weight: normal; }
+.sections .section__content--list h3 { font-size: 24px }
+.sections .section__content--list h4 { font-size: 21px }
+.sections .section__content--list a { color: #f80e27; text-decoration: none; }
+.sections .section__content--list a:hover { color: #e28a8a; }
 
 blockquote { position: relative;; max-width: 430px; margin: 40px auto; }
 blockquote:before {  content: '“'; font-size: 120px; color: #a1a1a1; top: -2rem; left: -4rem; width: 4rem; height:  4rem; padding: 10px; line-height: 1.09; }
 blockquote:after { content: '”';  font-size: 120px; color: #a1a1a1; top: 2rem; right: -4rem; width: 4rem; height: 4rem; padding: 10px; } 
 blockquote:before, blockquote:after { position: absolute; }
 
-.section_content-list h3, h4  { font-family: 'Gill Sans', serif; font-weight: normal; }
-.section_content-list h3 { font-size: 24px }
-.section_content-list h4 { font-size: 21px }
-.section_content-list a { color: #f80e27; text-decoration: none; }
-.section_content-list a:hover { color: #e28a8a; }
-
-
 footer img { margin-top: 80px; }
-

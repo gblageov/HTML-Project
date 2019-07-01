@@ -34,7 +34,7 @@ ol { padding-left: 1.2em; }
 img { max-width: 100%; height: auto; vertical-align: middle; } 
 
 /* ------------------------------------------------------------ *\
-    Custum Style
+    Style
 \* ------------------------------------------------------------ */
 
 .shall { max-width: 980px; margin: 0 auto; }
@@ -51,25 +51,24 @@ section { display: flex; justify-content: space-around; margin-top: 30px; }
 .breadcrumbs { margin:22px 0 14px 0; line-height: 1; }
 .breadcrumbs ul, li:before { content: ">"; padding: 0 5px; }
 .breadcrumbs ul, li { display: inline-block; list-style: none; padding: 0; margin: 0; color: #595959; font-size: 11px; }
-/* Как да направя така че да няма !important; */
-.breadcrumbs ul, li:first-child:before { content: none; padding: 0 !important;  } 
+.breadcrumbs ul, li:first-child:before { content: none; padding: 0 !important;  } /* Как да направя така че да няма !important; */
 .breadcrumbs ul, li:first-child { color: #53887a; }
 .breadcrumbs ul, li a { text-decoration: none; }
 .breadcrumbs ul, li a:hover{ color: #53887a; }
 
 /* ------------------------------------------------------------ *\
-    .section-content
+    .sections
 \* ------------------------------------------------------------ */
 
-.section-content .title { margin-bottom: 25px; }
-.section-content .underline-image { margin-bottom: 20px; }
-.section-content .breadcrumbs { display: flex; align-items: flex-start; justify-content: space-around; margin: 40px 0; }
-.section-content .breadcrumbs span { font-family: 'Georgia'; font-size: 91px;  line-height: 1; align-self: flex-start; padding: 0 30px; }
-.section-content .breadcrumbs p { margin: 0; font-size: 15px; }
-.section-content .breadcrumbs .name { font-family: 'Helvetica', sans-serif; font-size: 14px; font-weight: 600; padding: 0;  margin-bottom: 30px; }
-.section-content h3 { font-size: 19px; }
-.section-content .section-column { display: flex; justify-content: space-between;  }
-.section-content .section-column p { width: 30%;}
+.sections h1 { margin-bottom: 25px; }
+.sections h3 { font-size: 19px; }
+.sections blockquote { display: flex; align-items: flex-start; justify-content: space-around; margin: 40px 0; }
+.sections blockquote p { margin: 0; font-size: 15px; }
+.sections blockquote span { font-family: 'Georgia'; font-size: 91px;  line-height: 1; align-self: flex-start; padding: 0 30px; }
+.sections blockquote .blockquote__name { font-family: 'Helvetica', sans-serif; font-size: 14px; font-weight: 600; padding: 0;  margin-bottom: 30px; }
+.sections .section__underline--image { margin-bottom: 20px; }
+.sections .section__column { display: flex; justify-content: space-between;  }
+.sections .section__column p { width: 30%;}
 
 
 

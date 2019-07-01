@@ -24,7 +24,7 @@ ol { padding-left: 1.2em; }
 
 img { max-width: 100%; height: auto; vertical-align: middle; }
 
-h4, .h4 { font-size: 18px; font-weight: 600; letter-spacing: 0.01rem; line-height: 1; margin-bottom: 28px; }
+h4, .section__content--h4 { font-size: 18px; font-weight: 600; letter-spacing: 0.01rem; line-height: 1; margin-bottom: 28px; }
 
 xmp { display: inline; }
 
@@ -33,23 +33,23 @@ xmp { display: inline; }
 \* ------------------------------------------------------------ */
 
 
-
 .shall { max-width: 980px; margin: 0 auto; }
 
 .container { display: flex; flex-direction: row; justify-content: space-between; margin-top: 30px; }
 
 .sections { max-width: 630px; } 
 
-.section-intro h1, h2, h3 { font-weight: 400; letter-spacing: 0.01rem; line-height: 1; margin-bottom: 30px; }
-.section-intro h1 { font-size: 45px;    }
-.section-intro h2 { font-size: 24px;color: #007cbf; font-weight: 500;}
-.section-intro h3 { font-size: 19px; }
+.section__intro h1, h2, h3 { font-weight: 400; letter-spacing: 0.01rem; line-height: 1; margin-bottom: 30px; }
+.section__intro h1 { font-size: 45px;    }
+.section__intro h2 { font-size: 24px;color: #007cbf; font-weight: 500;}
+.section__intro h3 { font-size: 19px; }
 
-.section-content >  h5  { padding:15px 20px 20px; font-size: 21px;font-weight: 400; background-color: #ededed; border-top: 5px solid #333333; }
-.section-content > img, .sectio-content_end > img { float: right; padding-left: 35px  }
+.section__content >  h5  { padding:15px 20px 20px; font-size: 21px;font-weight: 400; background-color: #ededed; border-top: 5px solid #333333; }
+.section__content > img,
+.section__content--bottom > img { float: right; padding-left: 35px  }
 
 blockquote { position: relative; font-family: Georgia, 'Ariel', sans-serif; font-size: 15px; font-style: italic; color: #8d9ba4; margin: 30px 0 80px 0; }
-blockquote:before { font-family: 'Bitter','Ariel' sans-serif; font-weight: bold;   font-size: 100px; float: left; line-height: 1; margin-right: 40px;  content: '“';  }
+blockquote:before { font-family: 'Bitter','Ariel' sans-serif; font-weight: bold;   font-size: 100px; float: left; line-height: 1; margin-right: 40px;  content: '“'; }
 
 
 
