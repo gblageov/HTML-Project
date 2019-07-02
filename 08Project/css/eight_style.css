@@ -34,7 +34,7 @@ ul,
 ol { margin-bottom: 30px; line-height: 19px; } 
 
 ul,
-ol { list-style: none; } 
+ol { list-style: none; }  /* Тук не се ползва така сега няма никуде стилове на листите. ОПРАВИ ГО. */
 
 img { max-width: 100%; height: auto; vertical-align: middle; } 
 
