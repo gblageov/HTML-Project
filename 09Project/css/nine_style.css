@@ -22,9 +22,9 @@ h4,
 h5,
 h6 { font-family: 'Trajan Pro' ,'Arial', sans-serif; font-weight: bold; margin-bottom: 20px; color: #393939; }
 
-h1 { font-size: 30px; margin-bottom: 22px; line-height: 17px;  color: #f04768; }
-h2 { font-size: 22px;  line-height: 17px; margin-bottom: 20px;}
-h3 { font-size: 17px; line-height: 17px; margin-bottom: 16px; }
+h1 { font-size: 30px; margin-bottom: 22px; line-height: 1;  color: #f04768; }
+h2 { font-size: 22px;  line-height: 1; margin-bottom: 20px;}
+h3 { font-size: 17px; line-height: 1; margin-bottom: 16px; }
 h4 { font-size: 15px; }
 h5 { font-size: 13px; }
 h6 { font-size: 12px; }
@@ -56,5 +56,17 @@ br { content: ""; display: block; margin: 7.5px 0; }
 .section__column li { width: 48%; }
 
 .section__image { display: flex; }
-.section__image .section__content--main { width: 60%; }
-.section__image img { max-width:329px; }
+.section__image .section__content--main { width: 60%; padding-right: 10px; }
+.section__image img { max-width:329px; margin-top: 52px; }
+
+
+blockquote { position: relative; width: 800px; margin-bottom: 30px; padding: 0 45px;  } 
+blockquote p { font-size: 20px; font-weight: bold; line-height: 25px; color: #f04368; margin-bottom: 10px; } 
+blockquote ul {margin: 0; padding: 0; list-style-type: none; }
+blockquote li { font-size: 14px; line-height: 18px; color: #212121; margin-left: 20px } 
+/* blockquote li:before { position: absolute; contain: '-'; text-indent: -5px; } */
+
+blockquote ul li:before { content: '\2014'; position: absolute; margin-left: -20px; }
+
+blockquote:before { position: absolute; color: #ffc0cd; font-size: 8rem; width: 4rem; height: 4rem; } 
+blockquote:before { content: '“'; left: -0.4rem; top: 2rem; } 
